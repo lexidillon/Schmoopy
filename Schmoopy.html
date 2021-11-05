@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Schmoopy</title>
+    <style>
+        body {
+            background-image: linear-gradient(to left, #fff1eb 0%, #ace0f9 100%);
+        }
+
+        h1,
+        h2,
+        a,
+        p, h3
+         {
+            text-align: center;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+                "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+            color: #55ada1;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        h1 {
+            font-size: 88px;
+        }
+
+        h2 {
+            padding-bottom: 20px;
+        }
+
+        a {
+            line-height: 30px;
+        }
+
+        button {
+            /* margin-left: 150px;
+            margin-bottom: 30px;
+            margin-top: 10px; */
+            margin: 0 auto;
+            display: block;
+            padding: 15px 20px;
+            border-radius: 15px;
+            border: 1px solid #34e19d;
+            background: #34e19d;
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+            box-shadow: 2px 2px 8px rgb(53, 52, 52);
+        }
+
+        button:hover {
+            background: #2eb2cc;
+            transition: 100ms;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Welcome to this nerdy schmoopy page 😉
+    </h1>
+    <h2>
+        Built for Nicky poo, because I'm a giant nerd
+    </h2>
+    <h3>
+        <br>
+
+        <a href="https://www.youtube.com/watch?v=heCOx4TDo0I&ab_channel=JacobCollier" target="“_blank”">
+            💜 Something to make you smile
+        </a>
+        <br />
+        <a href="https://www.google.com/search?q=dog+little+mermaid&tbm=isch&ved=2ahUKEwih9tGrqIL0AhUR3RoKHd_cDK8Q2-cCegQIABAA&oq=dog+little+mermaid&gs_lcp=CgNpbWcQAzIECAAQQzIFCAAQgAQyBggAEAUQHjIGCAAQBRAeMgYIABAFEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB4yBggAEAgQHjIGCAAQCBAeOgYIABAHEB46BAgAEB5QqQZYthpgkRtoAHAAeACAAWCIAcsKkgECMTeYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=EraFYaGlIZG6a9-5s_gK#imgrc=B2H9o81YKuoccM" target="“_blank”">
+            Something to make you laugh 😄
+        </a>
+        <br />
+        <a href="https://www.sporcle.com/games/g/elements" target="“_blank”">
+            In case you want to nerd it up
+        </a>
+    </h3>
+    <button>
+        Click here
+    </button>
+    <script>
+            let question = prompt("How Schmoopy are you feeling today? (0-10)");
+                if (question < 5) {
+                    alert("You're not feeling very schmoopy today, text your baby boo!");
+                } else if (question > 6) {
+                    alert("I love my baby, he's the best! Looks like you're feeling very schmoopy today 😘");
+                } else {
+                    alert("You're feeling schmoopy enough 💜");
+                }
+
+                function giveLove() {
+                            alert("I love you 😘 ");
+                    }
+
+                    let button = document.querySelector("button");
+                    button.addEventListener("click", giveLove);
+    </script>
+</body>
+
+</html>
